@@ -16,6 +16,8 @@
 
 #pragma once
 
+#define TAPPING_TERM_PER_KEY
+
 /* Encoder Configuration */
 #define ENCODER_DEFAULT_POS 0x3
 
