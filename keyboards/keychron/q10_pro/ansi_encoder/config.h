@@ -16,6 +16,8 @@
 
 #pragma once
 
+#define TAPPING_TERM_PER_KEY
+
 #ifdef RGB_MATRIX_ENABLE
 /* RGB Matrix Driver Configuration */
 #    define DRIVER_COUNT 2
