@@ -17,6 +17,14 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case SFT_T(KC_SPC):
             return 200;
+        case MT(MOD_LCTL, KC_A):
+            return 200;
+        case MT(MOD_LCTL, KC_SCLN):
+            return 200;
+        case MT(MOD_LALT, KC_S):
+            return 200;
+        case MT(MOD_RALT, KC_L):
+            return 200;
         default:
             return 150;
     }
